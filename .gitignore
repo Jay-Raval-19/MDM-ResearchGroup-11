@@ -1,0 +1,11 @@
+# Large artifacts live outside the repo (see src/rndvi/config.py: RNDVI_DATA)
+data/
+models/
+*.npy
+*.zarr/
+*.pt
+*.tif
+__pycache__/
+.venv/
+.pytest_cache/
+*.tiff
